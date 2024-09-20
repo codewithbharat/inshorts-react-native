@@ -28,6 +28,11 @@ const Home = () => {
       elevation: 5,
         }}>inshorts</Text>
     </View>
+    {/* News Box */}
+    <View style={{padding: 25}}>
+      <Text style={{fontSize: 20, marginTop: 10, fontWeight: 'bold'}}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quam laborum nisi similique sed explicabo eos magnam est cum vel? </Text>
+      <Text style={{fontSize: 18, textAlign : 'justify', lineHeight: 30, marginTop: 10}}> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, quaerat suscipit vitae esse, aliquid, veritatis doloribus eveniet voluptatem dolor blanditiis nihil voluptatum. Magni, at non modi quod illum error ullam optio, dolores cum facilis eum? Rem maiores unde obcaecati suscipit id, voluptates autem officia, delectus facilis temporibus nam culpa similique? Fuga enim, eveniet incidunt facere laboriosam est. Est, hic vero. </Text>
+    </View>
     </View>
   )
 }
