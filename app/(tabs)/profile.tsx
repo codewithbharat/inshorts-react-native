@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const NotFoundScreen = () => {
+const profile = () => {
   return (
     <View>
-      <Text>NotFoundScreen</Text>
+      <Text>profile</Text>
     </View>
   )
 }
 
-export default NotFoundScreen
+export default profile
