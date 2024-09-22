@@ -32,7 +32,7 @@ const Home = () => {
           lang: 'en'
         },
         headers: {
-          'x-rapidapi-key': '63cea0b5a5msh59a5944add35bbdp134b71jsn376b3abddccc',
+          'x-rapidapi-key': process.env.EXPO_PUBLIC_RAPID_API_KEY,
           'x-rapidapi-host': 'real-time-news-data.p.rapidapi.com'
         }
       };
