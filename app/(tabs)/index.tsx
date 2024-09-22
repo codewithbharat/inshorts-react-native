@@ -41,7 +41,6 @@ const Home = () => {
         const response = await axios.request(options);
         const data = response.data.data;
         interface NewsItem {
-          story_id: string;
           photo_url: string;
           title: string;
           snippet: string;
@@ -50,7 +49,7 @@ const Home = () => {
 
         const fetchedData: MappedNewsItem[] = data.map((item: NewsItem) => {
           return {
-            id: item.story_id,
+            id: Math.random().toString(36).substring(7),
             imgUrl: item.photo_url,
             title: item.title,
             shortDescription: item.snippet,
