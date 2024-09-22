@@ -27,7 +27,7 @@ const Home = () => {
         params: {
           topic: 'TECHNOLOGY',
           section: 'CAQiW0NCQVNQZ29JTDIwdk1EZGpNWFlTQW1WdUdnSlZVeUlQQ0FRYUN3b0pMMjB2TURKdFpqRnVLaGtLRndvVFIwRkVSMFZVWDFORlExUkpUMDVmVGtGTlJTQUJLQUEqKggAKiYICiIgQ0JBU0Vnb0lMMjB2TURkak1YWVNBbVZ1R2dKVlV5Z0FQAVAB',
-          limit: '5',
+          limit: '50',
           country: 'US',
           lang: 'en'
         },
